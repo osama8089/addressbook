@@ -1,3 +1,3 @@
-aws s3 cp s3://java-artifacts-devops4solutions/target/LoginWebApp-1.war/sample-java-projects/LoginWebApp-1.war /tmp
-sudo mv /tmp/LoginWebApp-1.war /usr/share/tomcat/webapps/LoginWebApp-1.war
-sudo service tomcat restart
+aws s3 cp s3://java-artifacts-devops4solutions/target/addressbook-2.0.war/sample-java-projects/addressbook-2.0.war /tmp
+sudo mv /tmp/addressbook-2.0.war /var/lib/tomcat9/webapps/addressbook-2.0.war
+sudo systemctl restart tomcat9.service
